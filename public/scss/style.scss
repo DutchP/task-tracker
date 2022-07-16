@@ -1,0 +1,30 @@
+@use './custom';
+.home{
+    padding-top: 3rem;
+    max-height: 100vh;
+    background-color: blue;
+    color: white;
+    .home-text{
+        font-family: 'Roboto',sans-serif;
+    }
+    .form-area{
+        margin-top: 3rem;
+        background-color: white;
+        // margin-left: 3rem;
+    }
+}
+
+.about{
+    margin-top: 8rem;
+    padding-top:5rem;
+    min-height:100vh;
+
+}
+@media (max-width:667px) {
+    .home svg {
+        display: none;
+    }
+    .home-text{
+        background-color: #0000ff;
+    }
+}
